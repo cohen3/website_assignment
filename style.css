@@ -156,7 +156,7 @@ body {
   height: 100px;
   background-color: red;
   position: relative;
-  margin-left: 550px;
+  margin-left: auto;
   margin-right: auto;
   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
@@ -167,20 +167,20 @@ body {
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
-  0%   {background-color:red; left:0px; top:0px;}
-  25%  {background-color:yellow; left:700px; top:0px;}
-  50%  {background-color:blue; left:700px; top:700px;}
-  75%  {background-color:green; left:0px; top:700px;}
-  100% {background-color:red; left:0px; top:0px;}
+  0%   {background-color:red; left:-350px; top:0px;}
+  25%  {background-color:yellow; left:350px; top:0px;}
+  50%  {background-color:blue; left:350px; top:700px;}
+  75%  {background-color:green; left:-350px; top:700px;}
+  100% {background-color:red; left:-350px; top:0px;}
 }
 
 /* Standard syntax */
 @keyframes example {
-  0%   {background-color:red; left:0px; top:0px;}
-  25%  {background-color:yellow; left:700px; top:0px;}
-  50%  {background-color:blue; left:700px; top:700px;}
-  75%  {background-color:green; left:0px; top:700px;}
-  100% {background-color:red; left:0px; top:0px;}
+  0%   {background-color:red; left:-350px; top:0px;}
+  25%  {background-color:yellow; left:350px; top:0px;}
+  50%  {background-color:blue; left:350px; top:700px;}
+  75%  {background-color:green; left:-350px; top:700px;}
+  100% {background-color:red; left:-350px; top:0px;}
 }
 
 #bc
