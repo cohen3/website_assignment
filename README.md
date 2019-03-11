@@ -1,9 +1,10 @@
 # My Webside
 
-# ID:	    		*on the included offline files*
+# ID:	    		
+*on the included offline files*
 
-# FULL NAME:		*on the included offline files*
-
+# FULL NAME:		
+*on the included offline files*
 
 # NOTES:
 - 	AdBlocker may cause the facebook life controler to disappear, disable AdBlocker or try another browser 
